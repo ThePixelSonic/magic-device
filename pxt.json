@@ -1,0 +1,31 @@
+{
+    "name": "Magic Device",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "audio-recording": "*",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3",
+        "pxt-faces": "github:grandpabond/pxt-faces#v1.1.0",
+        "datalogger": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
